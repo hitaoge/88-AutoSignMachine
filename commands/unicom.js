@@ -1,6 +1,6 @@
 
 const path = require('path')
-const { buildArgs } = require('../utils/util')
+const { buildArgs } = require('../utils/scheduler')
 const { default: PQueue } = require('p-queue');
 
 exports.command = 'unicom'
