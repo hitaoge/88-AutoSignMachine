@@ -155,7 +155,7 @@ var notify = {
         if (desp.length) {
             console.log('使用pushplus酱推送消息')
             await axios({
-                url: `http://pushplus.hxtrip.com/send`,
+                url: `http://www.pushplus.plus/send`,
                 method: 'post',
                 data: {
                     token: process.env.notify_pushplus_token,
