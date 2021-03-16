@@ -82,7 +82,7 @@ jobs:
         appid: ${{secrets.unicom_appid}}
         notify_sckey: ${{secrets.NOTIFY_SCKEY}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
-     运行 unicom 签到任务
+    # 运行 unicom 签到任务
     #- name: Run unicom daily task
     #  env:
     #    user1: ${{secrets.unicom_user1}}
